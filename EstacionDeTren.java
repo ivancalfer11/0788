@@ -30,5 +30,11 @@ public class EstacionDeTren
         System.out.println(dineroTotal);
         
     }
-   
+    public void simularVentaTickets()
+    {
+    maquina1.introducirDinero(300);
+    maquina1.imprimirTicket();
+    maquina2.introducirDinero(200);
+    maquina2.imprimirTicket();
+}
 }
