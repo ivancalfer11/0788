@@ -82,4 +82,9 @@ public class MaquinaDeTickets
     {
         return total;
     }
+    public void introducirPrecio(int Precio)
+    {
+        precio= Precio;
+    }
+    
 }
