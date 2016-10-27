@@ -23,7 +23,7 @@ public class MaquinaDeTickets
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaDeTickets(int coste)
+    public MaquinaDeTickets()
     {
         precio = 800;
         dineroIntroducido = 0;
@@ -86,7 +86,7 @@ public class MaquinaDeTickets
     {
         precio= Precio;
     }
-    public void rápido()
+    public void muestraAviso()
     {
         System.out.println("Por favor, introduce la cantidad correcta de dinero");
     }
