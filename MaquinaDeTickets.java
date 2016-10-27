@@ -86,5 +86,9 @@ public class MaquinaDeTickets
     {
         precio= Precio;
     }
+    public void rapido()
+    {
+        System.out.println("Por favor, introduce la cantidad correcta de dinero");
+    }
     
 }
