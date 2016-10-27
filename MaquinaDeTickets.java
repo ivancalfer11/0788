@@ -25,7 +25,7 @@ public class MaquinaDeTickets
      */
     public MaquinaDeTickets(int coste)
     {
-        precio = coste;
+        precio = 800;
         dineroIntroducido = 0;
         total = 0;
     }
@@ -86,12 +86,12 @@ public class MaquinaDeTickets
     {
         precio= Precio;
     }
-    public void rapido()
+    public void rápido()
     {
         System.out.println("Por favor, introduce la cantidad correcta de dinero");
     }
     public void mostrarPrecio()
     {
-        System.out.println("El precio del billete es"+" " + precio +" "+ "euros");
+        System.out.println("El precio del billete es"+" "+ precio+" "+"euros");
     }
 }
